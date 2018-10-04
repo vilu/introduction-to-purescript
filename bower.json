@@ -13,7 +13,8 @@
     "purescript-foldable-traversable": "^4.0.1",
     "purescript-arrays": "^5.1.0",
     "purescript-js-date": "^6.0.0",
-    "purescript-math": "^2.1.1"
+    "purescript-math": "^2.1.1",
+    "purescript-partial": "^2.0.0"
   },
   "devDependencies": {
     "purescript-psci-support": "^4.0.0"

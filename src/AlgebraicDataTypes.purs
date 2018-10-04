@@ -32,8 +32,3 @@ showShape (Circle c r) = "Circle at point: " <> showPoint c <> " with radius: " 
 showShape (Rectangle c w h) = "Rectangle at point: " <> showPoint c <> " with width: " <> show w <> " with height: " <> show h
 showShape (Line start end) = "Line from point: " <> showPoint start <> " to point: " <> showPoint start
 showShape (Text p text) = "Text: " <> text <> " at point: " <> showPoint p
-
-fib :: Partial => Int -> Int
-fib 0 = 1
-fib 1 = 1
-fib n | n >= 2 = fib (n - 1) + fib (n - 2)
